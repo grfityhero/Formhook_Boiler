@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  max-width: 500px;
+  padding: 7px;
+  background-color: black;
+}
+
+input[type="submit"] {
+  background-color: rgb(211, 72, 72);
+  padding: 8px;
+  padding: 5px;
+  border-radius: 7px;
+  padding: 10px;
+  color: white;
+  font-size: 1.2rem;
+}
+input[type="text"] {
+  padding: 7px;
+  margin: 10px 3px;
+  border-radius: 7px;
+  border: none;
+
+  background-color: rgb(240, 238, 238);
+}
